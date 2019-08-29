@@ -75,7 +75,7 @@ Two new tokens are introduced by this document:
 
 The `"hfs"` pattern modifier adds an `"e1"` token directly following the first
 occurrence of `"e"`, unless there is a DH operation in this same message, in
-which case the `"hfs"` token is placed directly after this DH (so that the
+which case the `"e1"` token is placed directly after this DH (so that the
 public key will be encrypted).
 
 The `"hfs"` modifier also adds an `"ekem1"` token directly following the
